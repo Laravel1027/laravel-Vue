@@ -1,0 +1,55 @@
+//Base styles
+@include font-face(roboto, './../fonts/Roboto-Regular', 'Roboto');
+@include font-face(roboto, './../fonts/Roboto-Medium', 'Roboto', 500);
+@include font-face(roboto, './../fonts/Roboto-Bold', 'Roboto', 700);
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  height: 100%;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.color-danger {
+  color: $color-danger !important;
+}
+
+.color-warning {
+  color: $color-warning !important;
+}
+
+.color-success {
+  color: $color-theme !important;
+}
+
+.icon-projects {
+  color: $icon-projects !important;
+}
+
+.icon-progress {
+  color: $icon-progress !important;
+}
+
+.icon-revision {
+  color: $icon-revision !important;
+}
+
+.icon-approved {
+  color: $icon-approved !important;
+}
+.icon-hold {
+  color: $icon-hold !important;
+}

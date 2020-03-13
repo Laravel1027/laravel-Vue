@@ -1,0 +1,14 @@
+.btn-primary {
+    background: #80b4a0 !important;
+}
+.prooflo-text {
+    color: #80b4a0 !important;
+}
+.spark-settings-stacked-tabs li.active a {
+    border-left: 3px solid #80b4a0;
+}
+@media (max-width: 515px) {
+    .decline-invitation {
+        margin-top: 10px !important;
+    }
+}

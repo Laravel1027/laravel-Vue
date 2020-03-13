@@ -1,0 +1,41 @@
+.page.login-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #F7F7F7;
+
+	.logo-main img{
+		max-width: 100%;
+		margin-bottom: 30px;
+		margin-top: -100px;
+	}
+
+	.login-box {
+		width: 400px;
+	}
+
+	.login-btn {
+		background-color: $color-theme;
+		color: #ffffff;
+		border-radius: 4px;
+		display: block;
+		width: 100%;
+
+		&:hover {
+			background-color: lighten($color-theme, 5%);
+			color: #ffffff;
+		}
+	}
+
+	a {
+		color: $color-theme;
+	}
+
+	.forgot-link {
+		margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+	}
+}

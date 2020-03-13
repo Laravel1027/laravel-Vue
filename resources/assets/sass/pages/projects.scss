@@ -1,0 +1,114 @@
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin-top: 0px;
+
+    .add-project-block {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #555555;
+        flex-direction: column;
+        cursor: pointer;
+        font-size: 20px;
+        margin-bottom: 20px;
+
+        span {
+            margin-top: 20px;
+        }
+
+        i {
+            padding: 15px;
+            font-size: 30px;
+            border-radius: 100px;
+            color: white;
+            background-color: $color-theme;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .project-block {
+        width: 100%;
+        height: 250px;
+        border: 1px solid #dbdbdb;
+        display: flex;
+        color: #555555;
+        flex-direction: column;
+        cursor: pointer;
+        margin-bottom: 20px;
+        border-radius: 0px;
+        overflow: hidden;
+
+        .image {
+            height: 150px;
+            width: auto;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .project-details {
+            padding: 5px 10px;
+            color: #555555;
+
+            .project-name {
+                font-size: 18px;
+                margin-bottom: -3px;
+            }
+
+            .company {
+                font-size: 12px;
+                color: lighten(#555555, 20%);
+            }
+        }
+
+    }
+}
+
+.project-form {
+
+    padding-top: 60px;
+    position: relative;
+
+    .form-field {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        label {
+            min-width: 130px;
+            color: #747474;
+        }
+
+        .el-input {
+            flex: 5;
+        }
+
+        .field-errors {
+            padding-left: 130px;
+            width: 100%;
+        }
+    }
+
+    .form-footer {
+        margin-top: 40px;
+        padding-left: 130px;
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.close-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
+    font-size: 40px;
+    color: $color-theme;
+}

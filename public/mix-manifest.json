@@ -1,0 +1,11 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/spa-modules/app.css": "/css/spa-modules/app.css",
+    "/js/spa-modules/spa-projects.js": "/js/spa-modules/spa-projects.js",
+    "/js/spa-modules/spa-proofer.js": "/js/spa-modules/spa-proofer.js",
+    "/js/sweetalert.min.js": "/js/sweetalert.min.js",
+    "/css/sweetalert.css": "/css/sweetalert.css",
+    "/js/sweetalert2.min.js": "/js/sweetalert2.min.js",
+    "/css/sweetalert2.css": "/css/sweetalert2.css"
+}
